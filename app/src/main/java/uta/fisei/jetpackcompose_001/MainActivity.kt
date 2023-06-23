@@ -27,13 +27,23 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-
-
+//
+@Preview
 @Composable
 fun Message(){
     Text(text = "Me gusta el olor del café en las mañanas")
 }
+@Preview
+@Composable
+fun MessageTwo(){
+    Text(text = "Sexto TI")
+}
+@Preview
+@Composable
+fun MessageThree(){
+    Text(text = "Sexto TI")
+}
+
 
 //@Preview(showBackground = true)
 //@Composable
