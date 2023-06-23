@@ -28,17 +28,17 @@ class MainActivity : ComponentActivity() {
     }
 }
 //
-@Preview
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun Message(){
     Text(text = "Me gusta el olor del café en las mañanas")
 }
-@Preview
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun MessageTwo(){
     Text(text = "Sexto TI")
 }
-@Preview
+@Preview(showBackground = true)
 @Composable
 fun MessageThree(){
     Text(text = "Sexto TI")
